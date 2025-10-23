@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستند طلبات قطاع التخطيط العمراني</title>
+    <style>
+        /* التنسيق الأساسي */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            direction: rtl; 
+            text-align: center;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 30px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+             margin: 0;
+             font-size: 2.5em;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        /* تصميم الروابط الزرقاء كبطاقات */
+        .link-cards {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 20px; /* مسافة أكبر بين البطاقات */
+            justify-content: center;
+        }
+        .service-link {
+            /* جعل الرابط يبدو كمربع أزرق */
+            background-color: #007bff; /* الأزرق الرئيسي */
+            color: white;
+            text-decoration: none;
+            padding: 25px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-align: center;
+            flex: 1 1 calc(33% - 20px); /* توزيع البطاقات على ثلاثة أعمدة (تقريباً) */
+            min-width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .service-link:hover {
+            background-color: #0056b3; /* لون أزرق أغمق عند التمرير */
+            transform: translateY(-5px); /* تأثير رفع لطيف */
+        }
+        .service-link span {
+            display: block;
+            margin-top: 5px;
+            font-size: 0.8em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🏛️ مستند طلبات قطاع التخطيط العمراني</h1>
+    </header>
+
+    <div class="container">
+        
+        <h2>الخدمات والإجراءات المتوفرة</h2>
+        
+        <div class="link-cards">
+            
+            <a href="re-survey.html" class="service-link">
+                ١- إعادة المسح
+                <span>(طلبات تصحيح وتثبيت الحدود)</span>
+            </a>
+
+            <a href="usage-change.html" class="service-link">
+                ٢- تغيير الاستعمال
+                <span>(تعديل نوع استخدام الأرض)</span>
+            </a>
+
+            <a href="merger.html" class="service-link">
+                ٣- الدمج
+                <span>(توحيد قطعتي أرض أو أكثر)</span>
+            </a>
+
+            <a href="subdivision.html" class="service-link">
+                ٤- تقسيم الأراضي
+                <span>(تجزئة أرض لقطع أصغر)</span>
+            </a>
+
+            <a href="apartment-projects.html" class="service-link">
+                ٥- مشاريع التقسيم بنظام الشقق الطبقية
+                <span>(تسجيل وحدات الملكية المشتركة)</span>
+            </a>
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>
